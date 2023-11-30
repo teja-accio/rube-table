@@ -1,0 +1,105 @@
+
+body{
+    background-color: #1a1b5b;
+    color: #ffffff;
+    font-size: 15px;
+}
+.features_table h1{
+    font-size:25px !important;
+	
+}
+li{
+    list-style:none;
+    }
+h1{
+     font-size:21px !important;
+    }    
+.features-table li {
+    background: #202a9b none repeat scroll 0 0;
+    border-bottom: 2px solid #d4d4d4;
+	text-align:center;
+    padding: 16.4px 21px;
+	cursor:pointer;
+}
+.features-table li:hover{
+	background:  #202a9b;
+	cursor:pointer;
+	-webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.features-table-free li, .features-table-paid li, .features-table-paid-left li {
+    background: #202a9b none repeat scroll 0 0;
+    border-bottom: 2px solid #d4d4d4;
+	text-align:center;
+    padding: 0px;
+	cursor:pointer;
+}
+.features-table-free h1, .features-table-paid h1, .features-table-paid-left li {
+    text-align: center;
+}
+.features-table-free li:hover, .features-table-paid li:hover, .features-table-paid-left li {
+    background: #202a9b none repeat scroll 0 0;
+	-webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+.features_table h1 {
+    font-size: 18px !important;
+}
+.features-table h1, .features-table-free h1, .features-table-paid h1, .features-table-paid-left h1 {
+    background: #021389 none repeat scroll 0 0;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    padding: 19px 21px;
+    text-transform: uppercase;
+}
+.features-table h1 {
+    border-top-left-radius: 20px;
+	text-align:center;
+}
+.features-table-paid h1 {
+    border-top-right-radius: 20px;
+}
+.features-table-paid-left h1 {
+    border-top-left-radius: 20px;
+}
+.features-table-free li {
+    border-right: 2px solid #d4d4d4;
+}
+.features-table-paid-left li {
+    border-right: 2px solid #d4d4d4;
+}
+
+.fa.fa-check {
+    color: #2cc14f;
+}
+.fa.fa-times {
+    color: #BA5340;
+}
+.fa{
+	font-size:30px;
+}
+.no-padding{
+	padding:0;
+}
+ul{
+	padding:0;
+}
+
+body {
+  counter-reset: section;                   /* Set the section counter to 0 */
+}
+.features-table li::before {
+  counter-increment: section;               /* Increment the section counter*/
+  content: "" counter(section) ": "; /* Display the counter */
+}
+
+code {
+    background: #fff;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    margin: 0 0.3rem;
+  }
